@@ -59,7 +59,7 @@ The Multinomial Naive Bayes algorithm is a classification algorithm that works b
 
 Multinomial Naive Bayes assigns probabilities to each category based on the frequency with which each category appears in your data set; these probabilities are known as "priors."
 
-Example implementation of Naive Bayes: https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
+Example implementation of Naive Bayes: [https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
 
 ## Logistic Regression (LR)
 
@@ -69,7 +69,7 @@ For example, if you want to predict whether a person is likely to be employed or
 
 Logistic regression works best when there are few features or predictors, but many observations in the training dataset.
 
-More about logistic regression: https://www.sciencedirect.com/topics/computer-science/logistic-regression
+More about logistic regression: [https://www.sciencedirect.com/topics/computer-science/logistic-regression](https://www.sciencedirect.com/topics/computer-science/logistic-regression)
 
 ## Support Vector Machines
 
@@ -77,7 +77,7 @@ More about logistic regression: https://www.sciencedirect.com/topics/computer-sc
 
 The training process consists of finding an optimal separating hyperplane by solving an optimization problem. The optimization problem has a linear objective function, which means that the hyperplane must be linear if it's going to fit our data perfectly.
 
-Example implementation of SVM model: https://scikit-learn.org/stable/modules/svm.html
+Example implementation of SVM model: [https://scikit-learn.org/stable/modules/svm.html](https://scikit-learn.org/stable/modules/svm.html)
 
 ## Stochastic Gradient Descent 
 
@@ -95,7 +95,7 @@ The k-NN algorithm works by finding the "k" nearest neighbors of each data point
 
 If there are more than one neighbor with a smaller distance than itself, then it classifies itself as belonging to their group. If there are no neighbors with a smaller distance than itself, then it classifies itself as belonging to another group or as being unclassified (if all of its neighbors have larger distances).
 
-More about KNN: https://www.ibm.com/topics/knn
+More about KNN: [https://www.ibm.com/topics/knn](https://www.ibm.com/topics/knn)
 
 ## Random Forests
 
