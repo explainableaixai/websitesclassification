@@ -111,4 +111,8 @@ An important part of website classification is the extraction of relevant text f
 
 For text classification itself, a wide range of machine learning models can be used, from Logistic Regression to deep learning nets.
 
+# Application of classification in finance
+
+One of the most important applications of Mean CVaR methodology is in relation to asset allocation. It is well known from study of [Brinson, Beebower and Hood](https://www.jstor.org/stable/4478947) that the asset allocation can explain over 90% of variability of portfolio returns and thus represents the cornerstone of successful asset management. The standard approach to asset allocation usually assumes constant relative weights of asset classes through time and thus not adapts to changing risk regimes on capital markets, which is especially important in times of distress and extreme risk events and losses. One [asset allocation software solution](https://www.alpha-quantum.com/portfolio_optimisation.html) for this weakness of strategic asset allocation is to use dynamic asset allocation based on Mean CVaR methodology. By using this approach, we can form portfolios, which dynamically adjust to changing correlations between asset classes and shifts in expected returns, leading to portfolios with higher returns and lowering of risks.
+
  
