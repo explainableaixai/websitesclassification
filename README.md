@@ -30,7 +30,7 @@ Machine learning models
 
 Before you start building a supervised machine learning model for automated website categorization, you need to prepare a large amount of high quality training data. The more training data in your data set and the better their quality in terms of relevance and diversity, the more accurate and reliable your model will be. Therefore, it is recommended that you invest most of your time and resources into this part of the process.
 
-There are several ways to collect training data for [machine learning model for website classification](https://www.websitecategorizationapi.com/). One way is to use existing datasets from various agencies or other third parties. You can also use existing web-crawling tools to crawl websites yourself and collect their content into a dataset.
+There are several ways to collect training data for [machine learning model for URL classification](https://www.websitecategorizationapi.com/). One way is to use existing datasets from various agencies or other third parties. You can also use existing web-crawling tools to crawl websites yourself and collect their content into a dataset.
 A useful tool to accomplish this is using [a reverse ip api](https://reverseiplookupapi.com/) to find appropriate domains. 
 
 Another option is to manually curate a dataset by simply opening up websites that are relevant to your use case and categorising them according to your custom taxonomy or taxonomy from Google, Facebook or IAB.
