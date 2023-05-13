@@ -103,6 +103,43 @@ More about KNN: [https://www.ibm.com/topics/knn](https://www.ibm.com/topics/knn)
 
 The resulting decision tree is pruned (in order to reduce overfitting), resulting in a set of decision nodes that represent individual predictions for each record in the test set. A random forest model can be used as either a classifier or a regression model by changing how it calculates probabilities or regression coefficients respectively. 
 
+## Application of website categorization to determining usage of technologies by verticals 
+
+One of the interesting use cases of classifying websites is as follows: 
+- collect content for millions of domains along with technologies they use
+- determine their verticals
+- from this you can then do analysis of technologies usage
+
+Consider e.g. technology of Intercom. 
+
+This is usage of Intercom over verticals: 
+
+![image](https://github.com/explainableaixai/websitesclassification/assets/58834207/d59d68b8-d7e3-42d2-bdda-100924669b72)
+
+This shows relative usage: 
+
+![image](https://github.com/explainableaixai/websitesclassification/assets/58834207/0e5fa708-9291-4e72-a1b4-8ac0893f7b1f)
+
+Note how popular it is on Personal Finance websites. 
+
+Another chart showing this: 
+
+![image](https://github.com/explainableaixai/websitesclassification/assets/58834207/b04654d7-034d-4a02-91f3-030907895dba)
+
+Intercom is highly popular among top 200k domains: 
+
+![image](https://github.com/explainableaixai/websitesclassification/assets/58834207/73eccb8e-7311-4b6b-803a-6731551a0569)
+
+
+and among domains that are young: 
+
+![image](https://github.com/explainableaixai/websitesclassification/assets/58834207/efff9b25-7cd8-4e36-99fb-14d62acce444)
+
+
+These are technologies that our AI recommender suggests for someone using Intercom on their website: 
+
+<table class="table" style="font-size:20px;line-height:30px"><thead><tr><th>Technology</th><th>AI Recommendation Score </th><th>Website</th></tr></thead><tbody><tr><td><a href="https://www.alpha-quantum.com/technologies/Calendly">Calendly</a></td><td>0.31</td><td>https://calendly.com/</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Microsoft Clarity">Microsoft Clarity</a></td><td>0.16</td><td>https://clarity.microsoft.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Google PageSpeed">Google PageSpeed</a></td><td>0.14</td><td>http://developers.google.com/speed/pagespeed/mod</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/CookieYes">CookieYes</a></td><td>0.13</td><td>https://www.cookieyes.com/</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/jQuery Mobile">jQuery Mobile</a></td><td>0.13</td><td>https://jquerymobile.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Tawk.to">Tawk.to</a></td><td>0.12</td><td>http://tawk.to</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Webflow">Webflow</a></td><td>0.12</td><td>https://webflow.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Tealium">Tealium</a></td><td>0.12</td><td>http://tealium.com</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Photo Gallery">Photo Gallery</a></td><td>0.12</td><td>https://10web.io/plugins/wordpress-photo-gallery</td></tr><tr><td><a href="https://www.alpha-quantum.com/technologies/Ruby">Ruby</a></td><td>0.12</td><td>http://ruby-lang.org</td></tr></tbody></table>
+
 # Conclusion
 
 Website classification is very important in [machine learning and natural language processing](https://www.machinelearningconsulting.net). It has many use cases in a number of industries, including Cybersecurity and Online Stores Categorizations.
